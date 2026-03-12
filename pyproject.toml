@@ -1,6 +1,6 @@
 [project]
 name = "invoicetronic-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "MCP server for the Invoicetronic API — Italian electronic invoicing (SDI) from any MCP client"
 requires-python = ">=3.11"
 license = "MIT"
