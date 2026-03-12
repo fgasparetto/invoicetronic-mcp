@@ -294,5 +294,10 @@ def export_invoices() -> dict[str, Any]:
         return {"content_type": r.headers.get("content-type"), "size": len(r.content)}
 
 
+def main():
+    """Run the MCP server."""
+    mcp.run()
+
+
 if __name__ == "__main__":
     mcp.run()
