@@ -1,3 +1,5 @@
+<!-- mcp-name: io.github.fgasparetto/invoicetronic-mcp -->
+
 # Invoicetronic MCP Server
 
 MCP server for the [Invoicetronic](https://invoicetronic.com) API — Italian electronic invoicing through the SDI (Servizio di Interscambio).

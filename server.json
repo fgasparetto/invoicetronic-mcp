@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/registry/refs/heads/main/schema/server.schema.json",
+  "name": "io.github.fgasparetto/invoicetronic-mcp",
+  "title": "Invoicetronic MCP Server",
+  "description": "MCP server for Italian electronic invoicing (SDI) via Invoicetronic API",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/fgasparetto/invoicetronic-mcp",
+    "source": "github"
+  },
+  "packages": [{
+    "registryType": "pypi",
+    "identifier": "invoicetronic-mcp",
+    "version": "1.0.0",
+    "transport": { "type": "stdio" },
+    "environmentVariables": [
+      {
+        "name": "INVOICETRONIC_API_KEY",
+        "description": "Invoicetronic API key",
+        "isRequired": true,
+        "isSecret": true
+      }
+    ]
+  }]
+}
